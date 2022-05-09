@@ -87,3 +87,55 @@ p h2 {
     text-decoration: none;
     color: rgb(248, 15, 15);
 }
+
+#rotas ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+#rotas{
+    text-align: center;
+    background-color: black;
+}
+
+#rotas ul li a{
+    color: red;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+  }
+  
+  #endereco {
+    font-family: "Times new romam";
+    font-size: 13pt;
+    color: white;
+    width: 300px;
+    text-align: center;
+  }
+  
+  #redes {
+    position: absolute;
+    right: 50px;
+  }
+  
+  #redes ul {
+    list-style: none;
+  }
+  
+  #redes ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  #redes ul li a img {
+    width: 50px;
+    height: 50px;
+  }
