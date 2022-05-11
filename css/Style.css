@@ -1,0 +1,197 @@
+h1 {
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  width: 60%;
+}
+#imgtorc {
+  height: 400px;
+  width: 100%;
+}
+h2 {
+  font-family: "Verdana";
+  font-size: 20pt;
+  margin: 10px;
+  margin-left: 300px;
+  text-transform: uppercase;
+}
+
+p h2 {
+  color: red;
+  width: 500px;
+  border: 1px solid rgb(20, 19, 19);
+}
+header {
+  background-color: rgb(5, 5, 5);
+  height: 200px;
+  text-align: center;
+  display: flex;
+}
+nav {
+  background-color: rgb(245, 6, 6);
+  padding: 10px;
+  text-align: center;
+  transition: ease 0.5s;
+}
+nav ul li {
+  display: inline-block;
+  margin: 15px;
+}
+
+nav ul li a {
+  color: black;
+  font-family: "times newm roman";
+  text-decoration: none;
+  font-size: 15pt;
+}
+
+#artexto ul li {
+  display: block;
+  margin: 15px;
+  text-align: center;
+  padding: 5px;
+}
+#artexto ul {
+  text-align: center;
+  color: rgb(238, 8, 8);
+  font-family: "times newm roman";
+  font-size: 15pt;
+}
+header img {
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+#torc {
+  background-color: black;
+  width: 100%;
+}
+#setor {
+  display: flex;
+  color: rgb(16, 15, 15);
+  background-color: rgb(21, 20, 20);
+  text-decoration: none;
+}
+#setor ul li a {
+  text-decoration: none;
+  color: rgb(248, 15, 15);
+}
+
+#rotas ul li {
+  display: inline-block;
+  margin: 15px;
+}
+
+#rotas {
+  text-align: center;
+  background-color: black;
+}
+
+#rotas ul li a {
+  color: red;
+  font-size: 20pt;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(8, 8, 8);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  color: white;
+}
+
+#endereco {
+  font-family: "Times new romam";
+  font-size: 13pt;
+  color: white;
+  width: 300px;
+  text-align: center;
+}
+
+#redes {
+  position: absolute;
+  right: 50px;
+}
+
+#redes ul {
+  list-style: none;
+}
+
+#redes ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+#redes ul li a img {
+  width: 50px;
+  height: 50px;
+}
+
+#comochegar {
+  display: block;
+  padding: 30px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+  transition: all 250ms ease;
+}
+#metrotrem {
+  display: none;
+}
+
+#metrotrem p,
+#onibus p,
+#carro p {
+  font-size: 15pt;
+  line-height: 40px;
+  margin-left: 250px;
+  margin-right: auto;
+  text-align: justify center;
+}
+
+#carro {
+  display: none;
+}
+#onibus {
+  display: none;
+}
+
+#comochegar {
+  background-color: #000000;
+  color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+#contato {
+  background-color: black;
+  color: red;
+}
+
+h4 {
+  font-size: 25pt;
+  text-align: left;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+
+#contato p {
+  font-size: 12pt;
+  color: white;
+  margin-left: 80px;
+}
+
+#contato button {
+  border-box: 1px solid silver;
+  margin-left: 80px;
+  padding: 10px;
+  border: 0px;
+  background-color: white;
+  cursor: pointer;
+}
